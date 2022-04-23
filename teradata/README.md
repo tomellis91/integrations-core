@@ -32,7 +32,7 @@ sudo -Hu dd-agent /opt/datadog-agent/embedded/bin/pip install teradatasql
 CREATE USER "datadog" AS PASSWORD="<PASSWORD>";
 ```
 
-Optional, but strongly recommended: Assign a new or existing role to the `datadog` user designated for read-only monitoring purposes.  
+Optional, but strongly recommended: Grant a new or existing role to the `datadog` user designated for read-only monitoring purposes.  
 
 ```shell
 GRANT "<READ_ONLY_ROLE>" TO "datadog"; 
