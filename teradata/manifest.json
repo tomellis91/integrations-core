@@ -14,7 +14,7 @@
     "mac_os",
     "windows"
   ],
-  "public_title": "Teradata",
+  "public_title": "Datadog-Teradata Integration",
   "categories": [
     "log collection",
     "database",
