@@ -16,7 +16,7 @@
       "Supported OS::macOS",
       "Supported OS::Windows",
       "Category::Web",
-      "Category::OS System",
+      "Category::OS & System",
       "Category::Log Collection",
       "Category::Autodiscovery"
     ]
@@ -50,7 +50,7 @@
       "IBM_WAS": "assets/dashboards/overview.json"
     },
     "logs": {
-      "source": "ibm-was"
+      "source": "ibm_was"
     }
   }
 }
